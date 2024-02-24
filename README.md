@@ -166,7 +166,7 @@ const HeaderSection = () => {
 export default HeaderSection;
 ```
 
-In the code above, we've created a simple header section with a title, a description, and two buttons. We've used Tailwind CSS to style the header section.
+In the code above, we've created a simple header section with a title, and a description. We've used Tailwind CSS to style the header section.
 
 Whe have now the header section, but we need to include it in our page. To do that, we'll import the `HeaderSection` component into the `page.js` file and use it there.
 
