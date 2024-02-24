@@ -230,6 +230,11 @@ const Navbar = () => {
 export default Navbar;
 ```
 
+Already heard about `Link` from `next/link`?
+Link is a built-in Next.js component that allows you to link to other pages in your application. It's a wrapper around the HTML anchor (`<a>`) tag, and it handles client-side navigation for you.
+
+For a better code, use a `map` function to iterate over the `navLinks` array and create a list of links.
+
 ### Implement the Navbar component
 
 After creating the `Navbar.jsx` file, import the `Navbar` component into the `page.js` file and use it there.
