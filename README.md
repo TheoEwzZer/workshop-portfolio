@@ -374,10 +374,8 @@ In the code above, we've imported the `AboutSection` component and used it in th
 
 Now, if you visit <http://localhost:3000>, you'll see the About section below the header section.
 
-## Improve your Portfolio
+## Add the Projects section
 
-If you've made it this far, congratulations! You've created the header section, the navigation bar, and the About section. Now, it's time to improve your portfolio by adding more styles with Tailwind CSS.
+If you've made it this far, congratulations! You've created the header section, the navigation bar, and the About section. Now, let's add the Projects section to our website.
 
 Good luck ;)
-
-In a second section, we'll look at adding projects and a contact section.
