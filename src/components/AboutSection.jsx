@@ -60,21 +60,16 @@ const AboutSection = () => {
             tempus.
           </p>
           <div className="flex flex-row justify-start mt-8">
-            <button onClick={() => handleTabChange("skills")}>
-              <p className={`mr-3 font-semibold text-[#ADB7BE] hover:text-white`}>
-                Skills
-              </p>
-            </button>
-            <button onClick={() => handleTabChange("education")}>
-              <p className={`mr-3 font-semibold text-[#ADB7BE] hover:text-white`}>
-                Education
-              </p>
-            </button>
-            <button onClick={() => handleTabChange("certifications")}>
-              <p className={`mr-3 font-semibold text-[#ADB7BE] hover:text-white`}>
-                Certifications
-              </p>
-            </button>
+            {TAB_DATA.map((tabData) => (
+              <button
+                key={tabData.id}
+                onClick={() => handleTabChange(tabData.id)}
+              >
+                <p className="mr-3 font-semibold text-[#ADB7BE] hover:text-white">
+                  {tabData.title}
+                </p>
+              </button>
+            ))}
           </div>
           <div className="mt-8">{TAB_DATA.find((t) => t.id === tab).content}</div>
         </div>
