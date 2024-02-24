@@ -325,6 +325,9 @@ const AboutSection = () => {
 export default AboutSection;
 ```
 
+Already heard about `find` function?
+The `find` function is a built-in JavaScript function that allows you to find an item in an array based on a condition. It returns the first item that matches the condition, or `undefined` if no item matches the condition.
+
 ### Explanation of "use client" and useState
 
 #### use client
