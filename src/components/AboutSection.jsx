@@ -49,14 +49,15 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white text-base md:text-lg">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum has been the standard dummy text ever since the 1500s, when an
-            unknown printer took a galley of type and scrambled it to make a type specimen
-            book. It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was popularised in
-            the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus PageMaker
-            including versions of Lorem Ipsum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ex volutpat,
+            facilisis massa a, dapibus velit. Pellentesque enim lorem, placerat sit amet
+            tempus ac, varius sit amet magna. Donec placerat cursus velit eu porttitor.
+            Cras id convallis est, vel mollis lorem. Nullam sed volutpat arcu. Praesent
+            pharetra dolor urna, eu dictum eros auctor eget. Curabitur venenatis justo
+            augue, vehicula faucibus velit scelerisque et. Pellentesque et scelerisque
+            nisl. Donec pretium erat quis lobortis eleifend. Mauris sollicitudin consequat
+            dignissim. Vestibulum vel bibendum est. Proin lacinia sagittis sapien ac
+            tempus.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <button onClick={() => handleTabChange("skills")}>
